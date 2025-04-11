@@ -1,0 +1,43 @@
+/*===================== Reset e estilos globais ====================*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/*=======================  Coloração Padrão ======================*/
+:root{
+    --body--: rgb(180, 180, 180);
+    --header--: lightblue;
+    --main--: rgb(255, 255, 255);
+}
+/*======================= Header e Navegação ======================*/
+body{
+    background-color: var(--body--)
+}
+div.container{
+    background-color: var(--header--);
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    height: 15vh;
+    border-radius: 20px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    padding: 20px;
+    gap: 40px ;
+    
+}
+li{
+    list-style-position: inside;
+    
+}
+
+ul li a:hover{
+    background-color:black;
+}
