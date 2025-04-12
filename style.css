@@ -1,43 +1,65 @@
-/*===================== Reset e estilos globais ====================*/
-*{
-    margin: 0px;
-    padding: 0px;
+/* Reset e estilos globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: lightgrey;
 
 }
-/*=======================  Coloração Padrão ======================*/
-:root{
-    --body--: rgb(180, 180, 180);
-    --header--: lightblue;
-    --main--: rgb(255, 255, 255);
-}
-/*======================= Header e Navegação ======================*/
-body{
-    background-color: var(--body--)
-}
-div.container{
-    background-color: var(--header--);
-    display: flex;
-    flex-direction: row;
-    width: 90vw;
-    height: 15vh;
+
+/* Configurações de Menu e logo*/
+header { /* Configurações do Container header */
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    margin: 15px;
     border-radius: 20px;
-    margin: auto;
-    align-items: center;
-    justify-content: center;
-}
-ul{
+    
     display: flex;
-    list-style-type: none;
-    padding: 20px;
-    gap: 40px ;
-    
-}
-li{
-    list-style-position: inside;
-    
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
-ul li a:hover{
-    background-color:black;
+header>h1 { /* Configurações da logo*/
+    flex: 0 0 220px;
+    font-size: 3.1em;
+    text-shadow: 3px 3px 3px black;
+    padding: 10px;
+}
+
+header>nav { /* Configurações do nav (Container) */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+header>nav>a { /* Configurações dos itens do nav */
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+header>nav>a:hover { /* Efeito ao passar o mouse  */
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+/* Main e conteúdo*/
+main {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px black;
 }

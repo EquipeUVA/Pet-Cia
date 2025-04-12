@@ -1,0 +1,13 @@
+/* Configuração para telas menores */
+/* Menu para telas menores */
+header,header>nav { /* Faz o Menu ficar em coluna em telas pequenas */
+    flex-flow: column nowrap;
+}
+
+header>h1 { 
+    flex-basis: 50px;
+}
+
+header>nav>a {
+    width: 90vw;
+}
