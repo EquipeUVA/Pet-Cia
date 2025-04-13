@@ -15,7 +15,7 @@ body {
 
 /* Configurações de Menu e logo*/
 header { /* Configurações do Container header */
-    background-color: rgb(4, 153, 199);
+    background-color: rgb(1, 133, 173);
     color: white;
     padding: 10px;
     margin: 15px;
@@ -28,10 +28,12 @@ header { /* Configurações do Container header */
 }
 
 header>h1 { /* Configurações da logo*/
-    flex: 0 0 220px;
+    flex: 0 0 250px;
     font-size: 3.1em;
     text-shadow: 3px 3px 3px black;
-    padding: 10px;
+    padding: 20px;
+   
+    text-align: right;
 }
 
 header>nav { /* Configurações do nav (Container) */
@@ -57,9 +59,83 @@ header>nav>a:hover { /* Efeito ao passar o mouse  */
 }
 /* Main e conteúdo*/
 main {
-    background-color: white;
-    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 3px black;
+    width: 85vw;
+}
+#historia>h2{
+    text-align: center;
+    font-size: 2.2em;
+    background-color: rgb(255, 235, 205, 0.616);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.493);
+    padding: 20px;
+    width: 200px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 3x 3px 3px black;
+    margin-bottom: 30px;
+}
+
+#historia>p{
+    background-color: rgba(255, 235, 205, 0.616);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px black;
+}
+#novidades>h2{
+    font-size: 2.5em;
+    text-align: center;
+    background-color: rgb(255, 235, 205, 0.616);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.493);
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(255, 235, 205, 0.616);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.493);
+    padding: 10px;
+    box-shadow: 3x 3px 3px black;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+#novidades>#banhoetosa>h3{
+    text-align: center;
+    background-color: rgb(255, 235, 205, 0.616);
+    padding: 10px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    
+}
+#banhoetosa{
+    align-items: center;
+    text-align: center;
+}
+#novidades>#banhoetosa>p{
+    text-align: center;
+    background-color: rgb(255, 235, 205, 0.616);
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+#novidades>#raçaonova>h3{
+    text-align: center;
+    background-color: rgb(255, 235, 205, 0.616);
+    padding: 10px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    
+}
+#novidades>#raçaonova>p{
+    text-align: center;
+    background-color: rgb(255, 235, 205, 0.616);
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
 }
