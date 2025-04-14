@@ -71,6 +71,10 @@ main {
 
 }
 /*Inicio */
+#msg{
+    text-align: center;
+}
+
 #historia>h2{ /*título do inicio*/
     font-family: Arial, Helvetica, sans-serif; 
     font-size: 2.5em;
@@ -129,3 +133,29 @@ main {
 
 
 /*Contatos*/
+
+.colunadecontato input, .colunadecontato textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;    
+}
+
+button{
+    padding: 16px;
+    background: #0185AD;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover{
+    outline: none;
+    background: #006B89; /* Depois vê se prefere essa cor ou essa daqui #299DBC */
+}
+
+
