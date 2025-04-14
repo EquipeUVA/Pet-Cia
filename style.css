@@ -29,7 +29,7 @@ header { /* Configurações do Container header */
 }
 
 header>h1 { /* Configurações da logo*/
-    flex: 0 0 250px;
+    flex: 0 100 200px;
     font-size: 3.1em;
     text-shadow: 3px 3px 3px black;
     padding: 20px;
@@ -65,8 +65,8 @@ main {
     padding: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 3px black;
-    height: 900px;
     width: 85vw;
+    height: 90vh;
     
 
 }
@@ -84,22 +84,48 @@ main {
     padding: 20px;
 }
 /*Novidades*/
-/*Produtos*/
-#containerprodutos{
+#divnovidades{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    Justify-content: center;
-    
-
-    
+    flex-direction: row wrap;
+    justify-content: center;
+    padding: 30px;
+    gap: 80px;
 }
-#containerprodutos>.itemsprodutos{
-    background-color: aqua; 
+.itemsnovidades{
+    background-color: beige;
     height: 200px;
     width: 200px;
-    margin: 10px;
+    margin: 10px; 
+
+}
+
+
+/*Produtos*/
+
+#divprodutos{ /*coloquei uma flexbox  para ter a quebra dos itens e os produtos aparecerem um ao lado do outro dependendo do tamanho da tela */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 30px;
+    gap: 100px;
+   
+}
+.itemsprodutos{ /* configuração dos produtos */
+    background-color: beige;
+    height: 200px;
+    width: 200px;
+    margin: 10px; 
 
 }
 /*Fundação*/
+
+
+
+
+
+
+
+
+
+
 /*Contatos*/
