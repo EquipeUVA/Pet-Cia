@@ -212,6 +212,7 @@ main {
     margin-top: 20px;
     border-radius: 10px;
 }
+
 .colunadecontato input, .colunadecontato textarea{
     width: 100%;
     padding: 15px;
@@ -229,11 +230,14 @@ button{
     border-radius: 8px;
     cursor: pointer;
     transition: 0.2s;
+    align-items: center;
+    text-align: center;
 }
 
 button:hover{
     outline: none;
     background: #006B89; /* Depois vê se prefere essa cor ou essa daqui #299DBC */
+    
 }
 
 
