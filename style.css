@@ -129,7 +129,18 @@ main {
     margin-top: 20px;
     box-shadow: 3px 3px 3px;
 }
-
+#novidades>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    text-align: justify;
+    padding: 10px;
+}
+#novidades>h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    text-align: justify;
+    padding: 20px;
+}
 /*Produtos*/
 #produtos>h2{
     font-family: Arial, Helvetica, sans-serif; 
