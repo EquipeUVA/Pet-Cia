@@ -153,6 +153,10 @@ main {
     margin-top: 20px;
     box-shadow: 3px 3px 3px;
 }
+#novidades>h3{
+    text-align: center;
+    align-items: center;
+}
 #novidades>p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3em;
@@ -171,21 +175,25 @@ main {
     text-align: justify;
     padding: 10px; 
 }
-#divnovidades{
+#divnovosserviços{
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content:  space-around;
     padding: 10px;
-    gap: 90px;
+    gap: 30px;
     margin: auto;
     margin-top: 20px;
+    background-color: #003366;
+    height: 550px;
+    border-radius: 20px;
 }
-.itemsnovidades{/*aqui ta na parte de produto recomendado*/
-    background-color: beige;
-    height: 300px;
+.itemsnovosserviços{
+    height: 520px;
     width: 300px;
-    margin: 10px;}
-
+    margin: 10px;
+    background-color: #FF6B00;
+}
+    
 
 /*Produtos*/
 #produtos>h2{
