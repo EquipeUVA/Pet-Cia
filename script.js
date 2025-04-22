@@ -10,15 +10,15 @@ if (minutos < 10) minutos = "0" + minutos
 if (segundos < 10) segundos = "0" + segundos
 
 if (hora >= 0 && hora < 12){
-    msg.innerHTML = `Bom dia!! São ${hora}:${minutos}:${segundos}, Esperamos que sua manhã esteja sendo produtiva. Aproveite para conhecer nossos serviços!!`
+    msg.innerHTML = `Bom dia!! São ${hora}:${minutos}:${segundos}, Nas compras acima de R$100, o frete é grátis até o dia 30/04. Aproveite para conhecer nossos serviços!`
 } 
 
 else if(hora >= 12 && hora < 18){
-    msg.innerHTML = `Boa tarde!! São ${hora}:${minutos}:${segundos}, que tal dar uma olhada nas novidades da nossa empresa agora à tarde? Estamos aqui pra te ajudar!`
+    msg.innerHTML = `Boa tarde!! São ${hora}:${minutos}:${segundos}, Nas compras acima de R$100, o frete é grátis até o dia 30/04. Aproveite para conhecer nossos serviços!! `
 }
 
 else{
-    msg.innerHTML = `Boa noite!! São ${hora}:${minutos}:${segundos}, mesmo à noite, seguimos prontos para atender você. Fique à vontade para explorar o nosso site!` 
+    msg.innerHTML = `Boa noite!! São ${hora}:${minutos}:${segundos}, Nas compras acima de R$100, o frete é grátis até o dia 30/04. Aproveite para conhecer nossos serviços!!` 
 }
 
 // CÓDIGO PARA O ALERT DO FORMULARIO
