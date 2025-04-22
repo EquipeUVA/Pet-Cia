@@ -153,6 +153,22 @@ main {
     margin-top: 20px;
     box-shadow: 3px 3px 3px;
 }
+#divnovidades{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 10px;
+    gap: 50px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #003366;
+    border-radius: 20px;
+}
+.itemsnovidades{
+    background-color: #FF6B00;
+    padding: 5px;
+    border-radius: 10px;
+}
 #novidades>h3{
     text-align: center;
     align-items: center;
