@@ -22,9 +22,6 @@ header { /* Configurações do Container header */
     margin: 15px;
     border-radius: 20px;
     font-family:Georgia, 'Times New Roman', Times, serif;
-
-      
-    
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -100,6 +97,10 @@ main {
     font-size: 1.3em;
     text-align: justify;
     padding: 20px;
+    background-color:#003366;
+    margin: 20px;
+    border-radius: 10px;
+    color: white;
 }
 #divrecomendados{ /* Produtos recomendados*/
     display: flex;
@@ -131,6 +132,7 @@ main {
     margin-top: 20px;
     background-color: #003366;
     border-radius: 20px;
+    margin: 20px;
 }
 
 .itemsmaisbuscados{
@@ -215,7 +217,7 @@ main {
     flex-flow: row wrap;
     justify-content: center;
     padding: 20px;
-    gap: 40px;
+    gap: 20px;
     background-color: #003366;
     border-radius: 10px;
     margin-top: 20px;
