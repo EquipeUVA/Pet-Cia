@@ -1,535 +1,514 @@
 /* */
 /* Reset e estilos globais */
 * {
-    margin: 0;
-    padding: 10;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 10;
+  box-sizing: border-box;
 }
 
 /* Body */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
-    background-color:#FAFAFA;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  background-color: #FAFAFA;
 
 }
 
 /* Configurações de Menu e logo*/
-header { /* Configurações do Container header */
-    background-color:#003366;
-    color:white;
-    padding: 10px;
-    margin: 15px;
-    border-radius: 20px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
+header {
+  /* Configurações do Container header */
+  background-color: #003366;
+  color: white;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
-header>h1 { /* Configurações da logo*/
-    flex: 0 100 200px;
-    font-size: 3.1em;
-    text-shadow: 3px 3px 3px black;
-    padding: 20px;
-   
-    text-align: right;
+header>h1 {
+  /* Configurações da logo*/
+  flex: 0 100 200px;
+  font-size: 3.1em;
+  text-shadow: 3px 3px 3px black;
+  padding: 20px;
+
+  text-align: right;
 }
 
-header>nav { /* Configurações do nav (Container) */
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
+header>nav {
+  /* Configurações do nav (Container) */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
 }
 
-header>nav>a { /* Configurações dos itens do nav */
-    background-color:#FF6B00;
-    color: rgb(255, 255, 255);
-    padding: 10px;
-    margin: 5px;
-    border-radius: 5px;
-    text-decoration: none;
-    text-align: center;
+header>nav>a {
+  /* Configurações dos itens do nav */
+  background-color: #FF6B00;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
 }
 
-header>nav>a:hover { /* Efeito ao passar o mouse  */
-    background-color: white;
-    color: black;
-    transition: 0.5s;
+header>nav>a:hover {
+  /* Efeito ao passar o mouse  */
+  background-color: white;
+  color: black;
+  transition: 0.5s;
 }
+
 /* Main Global*/
 main {
-    background-color: rgb(255, 255, 255);
-    margin: auto;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 3px black;
-    width: 90vw;
-    height: 260vh;
-    text-align: center;
-    
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px black;
+  width: 90vw;
+  height: 260vh;
+  text-align: center;
+
 }
 
 /*Inicio */
-#msg{
-    text-align: center;
-   border-radius: 15px;
-    background-color:#FF6B00;
-    box-shadow: 3px 3px 3px;
-    padding: 8px;
-    font-size: 1.0em;
-}
-
-#historia>h2{ /*título do inicio*/
-    font-family:Georgia, 'Times New Roman', Times, serif; 
-    font-size: 1.0em;
-    text-align: center;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: #FF6B00;
-    width: 250px;
-    margin: auto;
-    margin-top: 20px;
-    box-shadow: 3px 3px 3px;
-}
-#historia>p{ /*Conteúdo do inicio */
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3em;
-    text-align: justify;
-    padding: 20px;
-    background-color:#ffffff;
-    margin: 20px;
-    border-radius: 10px;
-    color: rgb(0, 0, 0);
-}
-#divrecomendados{ /* Produtos recomendados*/
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    padding: 10px;
-    gap: 50px;
-    margin: auto;
-    margin-top: 20px;
-    background-color: #ffffff;
-    border-radius: 20px;
+#msg {
+  text-align: center;
+  border-radius: 15px;
+  background-color: #FF6B00;
+  box-shadow: 3px 3px 3px;
+  padding: 8px;
+  font-size: 1.0em;
 
 }
-.itemsrecomendados{
-    background-color:#ffffff;
-    height: 250px;
-    width: 250px;
-    margin: 10px;
-    border-radius: 10px;
+
+#historia>h2 {
+  /*título do inicio*/
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.0em;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #FF6B00;
+  width: 250px;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 3px 3px 3px;
 }
 
-#divmaisbuscados{ /* produtos mais buscados */
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    padding: 10px;
-    gap: 50px;
-    margin: auto;
-    margin-top: 20px;
-    background-color: #ffffff;
-    border-radius: 20px;
-    margin: 20px;
+#historia>p {
+  /*Conteúdo do inicio */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  text-align: justify;
+  padding: 20px;
+  background-color: #ffffff;
+  margin: 20px;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  box-shadow: 2px 2px 2px;
 }
 
-.itemsmaisbuscados{
-    background-color: #ffffff;
-    height: 250px;
-    width: 250px;
-    margin: 10px;
-    border-radius: 10px;
-    
-}
-
-/* isso aq cria a "caixinha" no produtos recomendados da pagina inicial*/
 #divrecomendados {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
-  }
-  
-  .itemsrecomendados {
-    width: 300px;
-    background-color: #ffffff;
-    border: 2px solid #d5d7d8;
-    border-radius: 12px;
-    box-shadow: 0 2px 9px rgba(2, 2, 2, 0.1);
-    padding: 1px;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    transition: transform 0.2s ease;
-  }
-  
-  .itemsrecomendados:hover {
-    transform: translateY(-5px);/* isso aq da o efeito de elevar o item*/
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-  }
-  
-  .itemsrecomendados img {
-    border-radius: 10px;
-    margin-bottom: 50px;
-  }
+  /* Produtos recomendados*/
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 10px;
+  gap: 50px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #ffffff;
+  border-radius: 20px;
 
-/* isso aaq cria a "caixinha" nos produtos mais buscado na pagina inicial*/
+}
+
+.itemsrecomendados {
+  width: 300px;
+  background-color: #ffffff;
+  border: 2px solid #d5d7d8;
+  border-radius: 12px;
+  box-shadow: 0 2px 9px rgba(2, 2, 2, 0.1);
+  padding: 1px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  transition: transform 0.2s ease;
+}
+
+.itemsrecomendados:hover {
+  transform: translateY(-5px);
+  /* isso aq da o efeito de elevar o item*/
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.itemsrecomendados img {
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
 
 #divmaisbuscados {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
-  }
-  
-  .itemsmaisbuscados {
-    width: 300px;
-    background-color: #fff;
-    border: 2px solid #d5d7d8;
-    border-radius: 12px; 
-    box-shadow: 0 2px 9px rgba(0, 0, 0, 0.2);
-    padding: 10px;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    transition: transform 0.2s ease;
-  }
-  
-  .itemsmaisbuscados:hover {
-    transform: translateY(-5px);/* isso aq da o efeito de elevar o item*/
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-  }
-  
-  .itemsmaisbuscados img {
-    border-radius: 10px;
-    margin-bottom: 50px;
-  }
-   
-  /* isso aqui mexe no rodapé*/
+  /* produtos mais buscados */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 10px;
+  gap: 50px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin: 20px;
+}
 
-footer {
-    background: #003366;
-    color: white;
-    font-family: sans-serif;
-  }
-  
-  .newsletter {
-    background:#ffffff;
-    color: #333;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .newsletter form {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin: 10px 0;
-  }
-  
-  .newsletter input, .newsletter button {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-  }
-  
-  .newsletter button {
-    background: #FF6B00;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .footer-links {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));/* isso que deixa em colunas certinho*/
-    gap: 20px;
-    padding: 30px;
-  }
-  
-  .footer-links h4 {
-    margin-bottom: 10px;
-  }
-  
-  .footer-links ul {
-    list-style: none;/* remove os pontinhos que fica quando vc cria listas*/
-    padding: 0;
-  }
-  
-  .footer-links li {
-    margin-bottom: 8px;
-  }
-  
+.itemsmaisbuscados {
+  width: 300px;
+  background-color: #fff;
+  border: 2px solid #d5d7d8;
+  border-radius: 12px;
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  transition: transform 0.2s ease;
+}
+
+.itemsmaisbuscados:hover {
+  transform: translateY(-5px);
+  /* isso aq da o efeito de elevar o item*/
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.itemsmaisbuscados img {
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+/* isso aqui mexe no rodapé*/
+
+
 
 /*Novidades*/
-#novidades>h2{
-    font-family:Georgia, 'Times New Roman', Times, serif; 
-    font-size: 1.5em;
-    text-align: center;
-    padding: 20px;
-    border-radius: 10px;
-    background-color:#FF6B00;
-    width: 250px;
-    margin: auto;
-    margin-top: 20px;
-    box-shadow: 3px 3px 3px;
+#novidades>h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #FF6B00;
+  width: 250px;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 3px 3px 3px;
 }
-#divnovidades{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    padding: 10px;
-    gap: 50px;
-    margin: auto;
-    margin-top: 20px;
-    background-color: #ffffff;
-    border-radius: 20px;
+
+#divnovidades {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 10px;
+  gap: 50px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #ffffff;
+  border-radius: 20px;
 }
-.itemsnovidades{
-    background-color: #ffffff;
-    padding: 10px;
-    border-radius: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3em;
-    text-align: justify;
+
+.itemsnovidades {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  text-align: justify;
+  box-shadow: 2px 2px 2px;
+  list-style-type: none;
+  /* botei so para tirar a bolinha da lista */
 }
- 
-#divnovosserviços{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content:  space-around;
-    padding: 10px;
-    gap: 30px;
-    margin: auto;
-    margin-top: 20px;
-    background-color: #ffffff;
-    height: 550px;
-    border-radius: 20px;
-}
-.itemsnovosserviços{
-    height: 520px;
-    width: 300px;
-    margin: 10px;
-    background-color: #ffffff;
-    border-radius: 10px;
-}
-/* mexe na caixinha dos novos serviços*/
+
 #divnovosserviços {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 30px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 10px;
+  gap: 30px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #ffffff;
+  height: 550px;
+  border-radius: 20px;
 }
 
 .itemsnovosserviços {
-    background-color: #fff;
-    border-radius: 15px;
-    padding: 15px;
-    width: 320px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 15px;
+  width: 320px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .itemsnovosserviços:hover {
-    transform: translateY(-5px); /* isso aq da o efeito de elevar o item */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25); 
+  transform: translateY(-5px);
+  /* isso aq da o efeito de elevar o item */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
 
 .itemsnovosserviços img {
-    border-radius: 10px;
-    margin-bottom: 10px; 
-    max-width: 100%;
-    height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  max-width: 100%;
+  height: auto;
 }
 
 .itemsnovosserviços ul {
-    padding-left: 20px;
-    margin-top: 10px;
+  padding-left: 20px;
+  margin-top: 10px;
 }
+
 
 /*Produtos*/
-#produtos>h2{
-    font-family:Georgia, 'Times New Roman', Times, serif; 
-    font-size: 1.5em;
-    text-align: center;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: #FF6B00;
-    width: 250px;
-    margin: auto;
-    margin-top: 20px;
-    box-shadow: 3px 3px 3px;
+#produtos>h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #FF6B00;
+  width: 250px;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 3px 3px 3px;
 }
-#divprodutos{ /*coloquei uma flexbox  para ter a quebra dos itens e os produtos aparecerem um ao lado do outro dependendo do tamanho da tela */
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    padding: 20px;
-    gap: 20px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    margin-top: 20px;
-   
-}
-.itemsprodutos{ /* configuração dos produtos */
-    background-color: beige;
-    height: 280px;
-    width: 200px;
-    margin: 10px; 
-    background-color: #FAFAFA;
-    border-radius: 10px;
-}
- /* isso aq cria as "caixinhas" na aba de produtos*/
 
- #divprodutos {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
-    justify-content: center;
-    padding: 20px;
-  }
-  
-  .itemsprodutos {
-    width: 220px;
-    height: 270px;
-    background-color: #fff;
-    border: 2px solid #d5d7d8;
-    border-radius: 12px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-    padding: 10px;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    transition: transform 0.2s ease;
-  }
-  
-  .itemsprodutos:hover {
-    transform: translateY(-5px); /* isso aq da o efeito de elevar o item*/
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-  }
-  
-  .itemsprodutos img {
-    max-width: 100%;
-    max-height: 140px;
-    object-fit: contain;
-    margin-bottom: 10px;
-  }
-  
-  .itemsprodutos .descricao {
-    font-size: 14px;
-  }
+#divprodutos {
+  /*coloquei uma flexbox  para ter a quebra dos itens e os produtos aparecerem um ao lado do outro dependendo do tamanho da tela */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-top: 20px;
+
+}
+
+.itemsprodutos {
+  width: 220px;
+  height: 270px;
+  background-color: #fff;
+  border: 2px solid #d5d7d8;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s ease;
+}
+
+.itemsprodutos:hover {
+  transform: translateY(-5px);
+  /* isso aq da o efeito de elevar o item*/
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.itemsprodutos img {
+  max-width: 100%;
+  max-height: 140px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.itemsprodutos .descricao {
+  font-size: 14px;
+}
+
 
 
 /*Fundação*/
-#fundaçao>h2{
-    font-family: Arial, Helvetica, sans-serif; 
-    font-size: 1.5em;
-    text-align: center;
-    padding: 20px;
-    border-radius: 10px;
-    background-color:#FF6B00;
-    width: 250px;
-    margin: auto;
-    margin-top: 20px;
-    box-shadow: 3px 3px 3px;
+#fundaçao>h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #FF6B00;
+  width: 250px;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 3px 3px 3px;
 }
 
-#fundaçaop{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.3em;
-    text-align: justify;
-    padding: 20px;
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    margin: 10px;
-    border-radius: 10px;
+#fundaçaop {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.3em;
+  text-align: justify;
+  padding: 20px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px;
 }
-#divceo{
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin: 5px;
-}
-.itemsceo{ /*aqui vc muda as configurações do texto e da foto */
+
+#divceo {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  box-shadow: 2px 2px 2px;
+  border-radius: 10px;
+  margin: 15px;
 
 }
-#divcto{
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin: 5px;
-}
-.itemscto{ /*aqui vc muda as configurações do texto e da foto */
+
+.itemsceo {
+  /*aqui vc muda as configurações do texto e da foto */
 
 }
-#divcoo{
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin: 5px;
+
+#divcto {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  box-shadow: 2px 2px 2px;
+  border-radius: 10px;
+  margin: 15px;
 }
-.itemscoo{ /*aqui vc muda as configurações do texto e da foto */    
+
+.itemscto {
+  /*aqui vc muda as configurações do texto e da foto */
 
 }
+
+#divcoo {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  box-shadow: 2px 2px 2px;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+.itemscoo {
+  /*aqui vc muda as configurações do texto e da foto */
+
+}
+
 /*Contatos*/
-#contatos>h2{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.5em;
-    text-align: center;
-    padding: 20px;
-    border-radius: 10px;
-    background-color:#FF6B00;
-    width: 250px;
-    margin: auto;
-    margin-top: 20px;
-    box-shadow: 3px 3px 3px;
-}
-#contatos>p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3em;
-    text-align: justify;
-    padding: 20px;
-    background-color:#ece0e0;
-    box-shadow: 3px 3px 3px;
-    margin-top: 20px;
-    border-radius: 10px;
+#contatos>h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #FF6B00;
+  width: 250px;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 3px 3px 3px;
 }
 
-.colunadecontato input, .colunadecontato textarea{
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 17px;
-    outline: none;
-    border: 1px solid #ccc;    
+#contatos>p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  text-align: justify;
+  padding: 20px;
+  background-color: #ece0e0;
+  box-shadow: 3px 3px 3px;
+  margin-top: 20px;
+  border-radius: 10px;
 }
 
-button{
-    padding: 16px;
-    background:#FF6B00;
-    color: #fff;
-    text-transform: uppercase;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: 0.2s;
-    align-items: center;
-    text-align: center;
+.colunadecontato input,
+.colunadecontato textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 17px;
+  outline: none;
+  border: 1px solid #ccc;
 }
 
-button:hover{
-    outline: none;
-    background: #e48255;
-    
+button {
+  padding: 16px;
+  background: #FF6B00;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+  align-items: center;
+  text-align: center;
+}
+
+button:hover {
+  outline: none;
+  background: #e48255;
+
+}
+
+/* Footer */
+footer {
+  background: #003366;
+  color: white;
+  font-family: sans-serif;
+}
+
+.newsletter {
+  background: #ffffff;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+.newsletter form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.newsletter input,
+.newsletter button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.newsletter button {
+  background: #FF6B00;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  /* isso que deixa em colunas certinho*/
+  gap: 20px;
+  padding: 30px;
+}
+
+.footer-links h4 {
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  /* remove os pontinhos que fica quando vc cria listas*/
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
 }

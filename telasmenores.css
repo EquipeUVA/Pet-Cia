@@ -13,13 +13,13 @@ header>h1 {
 header>nav>a {
     width: 80vw; 
 }
-
 img {
     max-width: 100%;
     height: auto;
     display: block;
     margin: auto;
 }
+
 
 form {
     display: flex;
