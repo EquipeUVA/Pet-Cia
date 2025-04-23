@@ -406,14 +406,14 @@ main {
 /*Contatos*/
 #contatos>h2 {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 1.5em;
+  font-size: 1.25em;
   text-align: center;
   padding: 20px;
   border-radius: 10px;
   background-color: #FF6B00;
   width: 250px;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 40px;
   box-shadow: 3px 3px 3px;
 }
 
@@ -461,6 +461,7 @@ footer {
   background: #003366;
   color: white;
   font-family: sans-serif;
+  margin-top: 40px;
 }
 
 .newsletter {
