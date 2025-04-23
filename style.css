@@ -70,6 +70,7 @@ main {
     text-align: center;
     
 }
+
 /*Inicio */
 #msg{
     text-align: center;
@@ -207,6 +208,62 @@ main {
     margin-bottom: 50px;
   }
    
+  /* isso aqui mexe no rodapé*/
+
+footer {
+    background: #003366;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  .newsletter {
+    background:#ffffff;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .newsletter form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  
+  .newsletter input, .newsletter button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .newsletter button {
+    background: #FF6B00;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .footer-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));/* isso que deixa em colunas certinho*/
+    gap: 20px;
+    padding: 30px;
+  }
+  
+  .footer-links h4 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul {
+    list-style: none;/* remove os pontinhos que fica quando vc cria listas*/
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 8px;
+  }
+  
+
 /*Novidades*/
 #novidades>h2{
     font-family:Georgia, 'Times New Roman', Times, serif; 
@@ -259,7 +316,40 @@ main {
     background-color: #ffffff;
     border-radius: 10px;
 }
-    
+/* mexe na caixinha dos novos serviços*/
+#divnovosserviços {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.itemsnovosserviços {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    width: 320px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.itemsnovosserviços:hover {
+    transform: translateY(-5px); /* isso aq da o efeito de elevar o item */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25); 
+}
+
+.itemsnovosserviços img {
+    border-radius: 10px;
+    margin-bottom: 10px; 
+    max-width: 100%;
+    height: auto;
+}
+
+.itemsnovosserviços ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
 
 /*Produtos*/
 #produtos>h2{
