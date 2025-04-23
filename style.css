@@ -104,7 +104,7 @@ main {
 
 #historia>p {
   /*Conteúdo do inicio */
-  font-family: Arial, Helvetica, sans-serif;
+   font-family:Arial, Helvetica, sans-serif;
   font-size: 1.3em;
   text-align: justify;
   padding: 20px;
@@ -137,8 +137,8 @@ main {
   box-shadow: 0 2px 9px rgba(2, 2, 2, 0.1);
   padding: 1px;
   text-align: center;
-  font-family: Arial, sans-serif;
-  transition: transform 0.2s ease;
+  font-family:Arial, Helvetica, sans-serif
+  transition; transform: 0.2s ease;
 }
 
 .itemsrecomendados:hover {
@@ -422,7 +422,7 @@ main {
   font-size: 1.3em;
   text-align: justify;
   padding: 20px;
-  background-color: #ece0e0;
+  background-color: #f5f3f3;
   box-shadow: 3px 3px 3px;
   margin-top: 20px;
   border-radius: 10px;
@@ -464,7 +464,7 @@ footer {
 }
 
 .newsletter {
-  background: #ffffff;
+  background:#f5f3f3;
   color: #333;
   padding: 20px;
   text-align: center;
