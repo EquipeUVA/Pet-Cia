@@ -38,6 +38,20 @@ function envio(){
     }
 }
 
+function cadastro(){
+    let text = document.getElementById('texto').value
+    let emaail = document.getElementById('gmail').value
+
+
+    if(!text || !emaail){
+        window.alert("Por Favor, preencha todos os campos!")
+    }
+
+    else{
+        window.alert("Obrigado por se cadastrar, em breve vc receberá novidades e promoções do nosso site!!")
+    }
+}
+
 
 
 

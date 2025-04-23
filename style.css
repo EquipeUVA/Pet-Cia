@@ -530,6 +530,6 @@ button{
 
 button:hover{
     outline: none;
-    background: #e48255; /* Depois vê se prefere essa cor ou essa daqui #299DBC */
+    background: #e48255;
     
 }
