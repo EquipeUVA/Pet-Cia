@@ -245,13 +245,49 @@ main {
     box-shadow: 3px 3px 3px;
 }
 
-#fundaçao>p{
+#fundaçaop{
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 1.3em;
     text-align: justify;
     padding: 20px;
+    background-color: #003366;
+    color: white;
+    margin: 10px;
+    border-radius: 10px;
 }
+#divceo{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
+}
+.itemsceo{ /*aqui vc muda as configurações do texto e da foto */
 
+}
+#divcto{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
+}
+.itemscto{ /*aqui vc muda as configurações do texto e da foto */
+
+}
+#divcoo{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
+}
+.itemscoo{ /*aqui vc muda as configurações do texto e da foto */    
+
+}
 /*Contatos*/
 #contatos>h2{
     font-family:Georgia, 'Times New Roman', Times, serif;
