@@ -144,6 +144,68 @@ main {
     
 }
 
+/* isso aq cria a "caixinha" no produtos recomendados da pagina inicial*/
+#divrecomendados {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .itemsrecomendados {
+    width: 300px;
+    background-color: #ffffff;
+    border: 2px solid #d5d7d8;
+    border-radius: 12px;
+    box-shadow: 0 2px 9px rgba(2, 2, 2, 0.1);
+    padding: 1px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    transition: transform 0.2s ease;
+  }
+  
+  .itemsrecomendados:hover {
+    transform: translateY(-5px);/* isso aq da o efeito de elevar o item*/
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .itemsrecomendados img {
+    border-radius: 10px;
+    margin-bottom: 50px;
+  }
+
+/* isso aaq cria a "caixinha" nos produtos mais buscado na pagina inicial*/
+
+#divmaisbuscados {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .itemsmaisbuscados {
+    width: 300px;
+    background-color: #fff;
+    border: 2px solid #d5d7d8;
+    border-radius: 12px; 
+    box-shadow: 0 2px 9px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    transition: transform 0.2s ease;
+  }
+  
+  .itemsmaisbuscados:hover {
+    transform: translateY(-5px);/* isso aq da o efeito de elevar o item*/
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  }
+  
+  .itemsmaisbuscados img {
+    border-radius: 10px;
+    margin-bottom: 50px;
+  }
    
 /*Novidades*/
 #novidades>h2{
@@ -231,6 +293,49 @@ main {
     background-color: #FAFAFA;
     border-radius: 10px;
 }
+ /* isso aq cria as "caixinhas" na aba de produtos*/
+
+ #divprodutos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .itemsprodutos {
+    width: 220px;
+    height: 270px;
+    background-color: #fff;
+    border: 2px solid #d5d7d8;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s ease;
+  }
+  
+  .itemsprodutos:hover {
+    transform: translateY(-5px); /* isso aq da o efeito de elevar o item*/
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  }
+  
+  .itemsprodutos img {
+    max-width: 100%;
+    max-height: 140px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .itemsprodutos .descricao {
+    font-size: 14px;
+  }
+
+
 /*Fundação*/
 #fundaçao>h2{
     font-family: Arial, Helvetica, sans-serif; 
@@ -338,110 +443,3 @@ button:hover{
     background: #e48255; /* Depois vê se prefere essa cor ou essa daqui #299DBC */
     
 }
-
-/* isso tudo mexe no produtos recomendados do index*/
-
-#divrecomendados {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
-  }
-  
-  .itemsrecomendados {
-    width: 300px;
-    background-color: #ffffff;
-    border: 2px solid #d5d7d8;
-    border-radius: 12px;
-    box-shadow: 0 2px 9px rgba(2, 2, 2, 0.1);
-    padding: 1px;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    transition: transform 0.2s ease;
-  }
-  
-  .itemsrecomendados:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-  }
-  
-  .itemsrecomendados img {
-    border-radius: 10px;
-    margin-bottom: 50px;
-  }
-
-  /* isso mexe no index mais buscado*/
-
-  #divmaisbuscados {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
-  }
-  
-  .itemsmaisbuscados {
-    width: 300px;
-    background-color: #fff;
-    border: 2px solid #d5d7d8;
-    border-radius: 12px; 
-    box-shadow: 0 2px 9px rgba(0, 0, 0, 0.2);
-    padding: 10px;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    transition: transform 0.2s ease;
-  }
-  
-  .itemsmaisbuscados:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-  }
-  
-  .itemsmaisbuscados img {
-    border-radius: 10px;
-    margin-bottom: 50px;
-  }
-  
-
-  /* isso aq mexe na aba de produtos*/
-
-  #divprodutos {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
-    justify-content: center;
-    padding: 20px;
-  }
-  
-  .itemsprodutos {
-    width: 220px;
-    height: 270px;
-    background-color: #fff;
-    border: 2px solid #d5d7d8;
-    border-radius: 12px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-    padding: 10px;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    transition: transform 0.2s ease;
-  }
-  
-  .itemsprodutos:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-  }
-  
-  .itemsprodutos img {
-    max-width: 100%;
-    max-height: 140px;
-    object-fit: contain;
-    margin-bottom: 10px;
-  }
-  
-  .itemsprodutos .descricao {
-    font-size: 14px;
-  }
