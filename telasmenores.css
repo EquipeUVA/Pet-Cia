@@ -1,6 +1,6 @@
 /* Configuração para telas menores */
 /* Menu para telas menores */
-header,
+header
 header>nav {
     flex-flow: column nowrap; /* Faz o Menu ficar em coluna em telas pequenas */
 }
